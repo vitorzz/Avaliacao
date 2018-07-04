@@ -2,8 +2,8 @@ use dbinfox;
 show tables;
 create table tb_usuario(
 iduser int primary key,
-usuario varchar(50),
-fone varchar(50) not null,
+usuario varchar(50)not null,
+fone varchar(50),
 login varchar(50) not null unique,
 senha varchar(50) not null,
 perfil varchar(50) not null);
